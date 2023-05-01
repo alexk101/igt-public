@@ -1,0 +1,10 @@
+feature,period,combination,accuracy,learning_rate,n_estimators
+deck,baseline,c1,0.33301767676767674,0.01,200
+deck,feedback,c1,0.39488636363636365,0.1,60
+deck,planning,c1,0.3317550505050505,0.1,40
+net_gain,baseline,c1,0.5737451737451738,1.0,200
+net_gain,feedback,c1,0.6401544401544401,0.1,60
+net_gain,planning,c1,0.5806949806949807,1.0,120
+win/loss_2,baseline,c1,0.6246843434343434,1.0,200
+win/loss_2,feedback,c1,0.6167929292929293,1.0,120
+win/loss_2,planning,c1,0.6243686868686869,1.0,120

@@ -1,0 +1,86 @@
+{
+    "deck": {
+        "c1": {
+            "baseline": {
+                "acc": 0.33301767676767674,
+                "boosting_type": "dart",
+                "learning_rate": 0.01,
+                "min_data_in_leaf": 1286,
+                "n_estimators": 200,
+                "num_leaves": 4
+            },
+            "feedback": {
+                "acc": 0.39488636363636365,
+                "boosting_type": "gbdt",
+                "learning_rate": 0.1,
+                "min_data_in_leaf": 1286,
+                "n_estimators": 60,
+                "num_leaves": 4
+            },
+            "planning": {
+                "acc": 0.3317550505050505,
+                "boosting_type": "dart",
+                "learning_rate": 0.1,
+                "min_data_in_leaf": 1286,
+                "n_estimators": 40,
+                "num_leaves": 4
+            }
+        }
+    },
+    "net_gain": {
+        "c1": {
+            "baseline": {
+                "acc": 0.5861003861003861,
+                "boosting_type": "gbdt",
+                "learning_rate": 1.0,
+                "min_data_in_leaf": 525,
+                "n_estimators": 200,
+                "num_leaves": 2
+            },
+            "feedback": {
+                "acc": 0.6378378378378379,
+                "boosting_type": "gbdt",
+                "learning_rate": 0.1,
+                "min_data_in_leaf": 525,
+                "n_estimators": 60,
+                "num_leaves": 4
+            },
+            "planning": {
+                "acc": 0.583011583011583,
+                "boosting_type": "gbdt",
+                "learning_rate": 1.0,
+                "min_data_in_leaf": 525,
+                "n_estimators": 120,
+                "num_leaves": 4
+            }
+        }
+    },
+    "win/loss_2": {
+        "c1": {
+            "baseline": {
+                "acc": 0.6246843434343434,
+                "boosting_type": "dart",
+                "learning_rate": 1.0,
+                "min_data_in_leaf": 1286,
+                "n_estimators": 200,
+                "num_leaves": 4
+            },
+            "feedback": {
+                "acc": 0.6167929292929293,
+                "boosting_type": "gbdt",
+                "learning_rate": 1.0,
+                "min_data_in_leaf": 1286,
+                "n_estimators": 120,
+                "num_leaves": 4
+            },
+            "planning": {
+                "acc": 0.6243686868686869,
+                "boosting_type": "dart",
+                "learning_rate": 1.0,
+                "min_data_in_leaf": 1286,
+                "n_estimators": 120,
+                "num_leaves": 4
+            }
+        }
+    }
+}

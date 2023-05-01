@@ -1,0 +1,9 @@
+data
+*__pycache__
+*target
+src/R/data
+*temp
+.Rproj.user
+src/*.csv
+*out_data
+*out_data_pca
